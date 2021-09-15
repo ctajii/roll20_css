@@ -1,0 +1,85 @@
+#macrobar {
+    height: auto !important;
+}
+#macrobar_macros {
+    white-space: normal !important;
+    margin-left: 1% !important;
+    margin-right: 1% !important;
+    padding-bottom: 0px !important;
+}
+#macrobar .macrobox {
+    margin: 2px !important;
+}
+
+#macrobar {
+    width: 90%;
+}
+.macrobox {
+    width: 80%;
+}
+#page-toolbar {
+    background-color: rgba(0, 0, 0, 0.50) !important;
+    width: 80% !important;
+    height: 400px !important;
+}
+#page-toolbar .container {
+    width: 100% !important;
+    height: 400px !important;
+    white-space: normal !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+}
+.ui-dialog.dialog-collapsed {
+    opacity: .60 !important;
+}
+div[id="stats"] {
+    opacity: 0.3 !important;
+}
+/*cards*/
+.hand .handcontainer .cardinhand img {
+    max-height: 160px !important;
+    max-width: none !important;
+}
+.charsheet .sheet-pf-wrapper {
+    margin-top: 10px !important;
+}
+.nav-tabs {
+    z-index: 100000 !important;
+    position: fixed !important;
+    background-color: #f0f8ff !important;
+    width: 100% !important;
+    margin: -10px 0 0 0 !important;
+}
+.nav-tabs:hover {
+    opacity: 1.0 !important;
+}
+.nav-tabs > li > a {
+    padding-top: 6px !important;
+    padding-bottom: 4px !important;
+}
+div.span6,
+div.span12 {
+    margin-top: 60px !important;
+}
+.playername
+{
+    margin-bottom: 10px;
+}
+/* show mic with names only */
+#textchat-notifier {
+    position: absolute !important;
+    top: -25px !important;
+    border: 2px solid #F00 !important;
+    opacity: .75 !important;
+}
+.namesonly .video {
+    display: inherit !important;
+    min-height: 0px !important;
+    height: 0px !important;
+}
+.namesonly .OT_widget-container {
+    display: none !important;
+}
+.namesonly #publisher_video {
+    top: -34px !important;
+}
